@@ -348,6 +348,7 @@ p{
   padding:50px;
   width:calc(100% - 100px);
   background: #174A41;
+  color:white;
 }
 #subscribe{
   width:40%;
@@ -361,9 +362,11 @@ p{
   padding: 15px 0px;
   color: #174A41;
   text-transform: capitalize;
+  border-radius:5px;
 }
 #subscribe input{
   padding:15px;
+  border-radius:5px;
 }
 
 

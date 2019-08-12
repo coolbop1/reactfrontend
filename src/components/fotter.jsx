@@ -13,7 +13,14 @@ class Foot  extends Component {
                         <span class="fevertext">Subscribe to our newsletter</span>
                         <br/><br/>
                         <input type="text" /> &nbsp;<button>subscribe</button>
+			<br/><br/>
+			<span class="fevertext">&copy; 2019 All right reserved</span><br/>
+			<span>Secured by SSQL</span>
                     </div>
+		<div id="quicklink">
+
+		</div>
+		
 
                 </div>
             </React.Fragment>
