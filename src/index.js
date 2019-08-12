@@ -5,6 +5,10 @@ import Hero from './components/herobanner';
 import Ads from './components/videoad';
 import Altbox from './components/alternatebox';
 import Features from './components/features';
+import Socials from './components/social';
+import Partner from './components/partners';
+import Longbreak from './components/break';
+import Foot from './components/fotter';
 import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -14,8 +18,10 @@ ReactDOM.render(<Hero />, document.getElementById('banner'));
 ReactDOM.render(<Ads />, document.getElementById('ads'));
 ReactDOM.render(<Features />, document.getElementById('featuresect'));
 ReactDOM.render(<Altbox />, document.getElementById('benefits'));
+ReactDOM.render(<Socials />, document.getElementById('socialsect'));
+ReactDOM.render(<Partner />, document.getElementById('partnersect'));
+ReactDOM.render(<Longbreak />, document.getElementById('breaksect'));
+ReactDOM.render(<Foot />, document.getElementById('footer'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+
 serviceWorker.unregister();
