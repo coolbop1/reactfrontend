@@ -350,14 +350,20 @@ p{
   background: #174A41;
   color:white;
 }
-#subscribe{
+#subscribe,#quicklink{
   width:40%;
   padding-top:50px
+}
+#quicklink{
+  width:60%;
+}
+#quicklink table{
+  width:100%;
 }
 .fevertext{
   color:#D7C629;
 }
-#subscribe button{
+#footcontain button{
   background: #D7C629;
   padding: 15px 0px;
   color: #174A41;
