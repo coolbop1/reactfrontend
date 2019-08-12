@@ -1,3 +1,299 @@
+/*--------------------------- HEAD STYLING--------------------------*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  height: 80px;
+  background: #ffffff;
+  width:100%;
+  position:relative;
+  float:none;
+  clear:both;
+}
+#logobox{
+  position:relative;
+  width:130px;
+  padding:20px 80px;
+  float:left;
+}
+#secimg{
+  right:80px;
+}
+#logobox img{
+  position:absolute
+}
+nav{
+  float:right;
+}
+nav li{
+  float:left;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding:10px 20px;
+  list-style: none;
+  font-weight: 700;
+  color:#49393B;
+}
+/*---------------------------END HEAD STYLING--------------------------*/
+
+
+/*---------------------------BANNER STYLING--------------------------*/
+#hero{
+  position: relative;
+  height:550px;
+  width:100%;
+  background: url("Front_display_2.png");
+
+}
+#hero .innerfilm{
+  position: absolute;
+  height:550px;
+  z-index: 2;
+  width:100%;
+  background: rgba(0,0,0,0.2);
+
+}
+.topPopUp{
+  padding: 15px;
+  text-align: center;
+  background: #174A41;
+  color:white;
+  position: absolute;
+  top:0;
+  z-index: 1.5;
+  width:calc(100% - 30px);
+  font-size: 18px;
+}
+.hotlink{
+  color:#d7c629;
+}
+#herotext{
+  width:calc(100% - 200px);
+  padding:100px;
+  position: absolute;
+  top:0;
+  right:0;
+  z-index: 1;
+  height:350px;
+  color:#ffffff;
+}
+#herotext h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+#herotext h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+ button{
+  min-width: 140px;
+  background: inherit;
+  border-style: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  color:white;
+  padding:10px 0;
+}
+ .inactive{
+  border:2px solid white;
+  
+}
+.active{
+  border:2px solid #174A41;
+  background: #174A41;
+}
+
+
+/*---------------------------END BANNER STYLING--------------------------*/
+
+
+/*---------------------------VIDEO ADS STYLING--------------------------*/
+#vidtext{
+  max-height:250px;
+  padding:70px 225px;
+  width: calc(100% - 450px);
+  text-align:center;
+  color:#49393B;
+}
+#vid{
+  height: 400px;
+  width:100%;
+  position:relative;
+  background: #DDF5E2;
+  
+}
+#vid #play{
+  position: absolute;
+  top:148px;
+  right:calc(50% - 52px);
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  padding: 20px;
+  border:2px solid #174A41;
+
+}
+#play img{
+  margin-top:5px;
+}
+/*---------------------------END VIDEO ADS STYLING--------------------------*/
+
+
+/*---------------------------FEATURES STYLING--------------------------*/
+#feattab,#featbox{
+  width:calc(100% - 210px);
+  padding:105px;
+
+}
+#feattab table{
+  max-height:215px;
+  width:100%;
+  color:white;
+  background: #174A41;
+  position:relative;
+  padding-top:20px;
+ 
+}
+.undertext{
+  font-weight: 600;
+  line-height:70px;
+}
+.normal{
+  position:relative;
+}
+.activetab span{
+  color: #174A41;
+  font-weight: 600;
+}
+.activetab{
+  background:#ffffff;
+  position:absolute;
+  padding:30px 100px;
+  top:-20px;
+  left:-20px;
+  box-shadow: 2px 4px 4px 2px #282c34;
+}
+#featbox h4,#featbox h2,p{
+  color:#49393B;
+}
+#featbox p{
+  font-weight: 500;
+}
+#featbox td{
+  width:25%
+}
+
+
+#featbox div{
+  height:337px;
+  padding:5px;
+  padding-top:50px;
+  margin:10px;
+  border-top:5px solid #D0D5DA;
+  box-shadow: 1px 2px 2px 1px #282c34;
+  width:calc(100% - 30px);
+
+}
+#featbox .activechoice{
+  border-top:5px solid #174A41;
+}
+#threepick ,#threepick  table{
+  width:100%;
+  background: #174A41;
+  border-spacing: 0;
+  border-width: 0;
+}
+#threepick td{
+  width:33.33333333333333%;
+  margin:0;
+  border-spacing: 0;
+  border-width: 0;
+}
+#threepick div{
+  height: 200px;
+  background: #174A41;
+  padding:150px 17px;
+  width:calc(100% - 34px);
+}
+#threepick #fpick{
+  background: #298473;
+}
+#threepick #spick{
+  background: #206659;
+}
+#threepick #tpick{
+  background: #174A41;
+}
+
+#threepick span{
+  font-size: 32px;
+line-height: 40px;
+color:white;
+}
+/*---------------------------END FEATURES STYLING--------------------------*/
+
+/*---------------------------FLEXING BOX STYLING--------------------------*/
+.fnone{
+  float:none;
+  clear:both;
+  width:100%;
+}
+.fleft{
+  float:left;
+}
+.ftext{
+  width:50%;
+  padding: 150px 0;
+}
+.ftext div{
+  height:176px;
+}
+.ftext h2,.ftext span{
+  color:#49393B;
+}
+.ftext span{
+  font-size: 20px;
+  font-weight: 500;
+}
+.fimg{
+  height:476px;
+  width:50%;
+}
+#f1{
+  background: url(f1.png);
+}
+
+
+/*---------------------------END FLEXING BOX STYLING--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -31,3 +327,4 @@
     transform: rotate(360deg);
   }
 }
+
