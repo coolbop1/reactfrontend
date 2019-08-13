@@ -9,6 +9,9 @@ body{
   position:relative;
   float:none;
   clear:both;
+  position:fixed;
+  z-index:5;
+  top:0;
 }
 #logobox{
   position:relative;
@@ -43,6 +46,7 @@ nav li{
   height:550px;
   width:100%;
   background: url("Front_display_2.png");
+  margin-top:80px;
 
 }
 #hero .innerfilm{
